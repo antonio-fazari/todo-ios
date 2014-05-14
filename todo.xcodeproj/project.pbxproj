@@ -19,6 +19,7 @@
 		62652B3C192386DE00F8DD1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62652B24192386DE00F8DD1B /* UIKit.framework */; };
 		62652B44192386DE00F8DD1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62652B42192386DE00F8DD1B /* InfoPlist.strings */; };
 		62652B46192386DE00F8DD1B /* todoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62652B45192386DE00F8DD1B /* todoTests.m */; };
+		62652B521923910800F8DD1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62652B511923910800F8DD1B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		62652B41192386DE00F8DD1B /* todoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "todoTests-Info.plist"; sourceTree = "<group>"; };
 		62652B43192386DE00F8DD1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62652B45192386DE00F8DD1B /* todoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = todoTests.m; sourceTree = "<group>"; };
+		62652B511923910800F8DD1B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				62652B2F192386DE00F8DD1B /* todoAppDelegate.h */,
 				62652B30192386DE00F8DD1B /* todoAppDelegate.m */,
+				62652B511923910800F8DD1B /* Main.storyboard */,
 				62652B32192386DE00F8DD1B /* Images.xcassets */,
 				62652B27192386DE00F8DD1B /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62652B521923910800F8DD1B /* Main.storyboard in Resources */,
 				62652B2B192386DE00F8DD1B /* InfoPlist.strings in Resources */,
 				62652B33192386DE00F8DD1B /* Images.xcassets in Resources */,
 			);
