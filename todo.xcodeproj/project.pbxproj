@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620226A7192B75B00000A383 /* todoToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 620226A6192B75B00000A383 /* todoToDoItem.m */; };
 		62652B21192386DE00F8DD1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62652B20192386DE00F8DD1B /* Foundation.framework */; };
 		62652B23192386DE00F8DD1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62652B22192386DE00F8DD1B /* CoreGraphics.framework */; };
 		62652B25192386DE00F8DD1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62652B24192386DE00F8DD1B /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620226A5192B75B00000A383 /* todoToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = todoToDoItem.h; sourceTree = "<group>"; };
+		620226A6192B75B00000A383 /* todoToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = todoToDoItem.m; sourceTree = "<group>"; };
 		62652B1D192386DE00F8DD1B /* todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62652B20192386DE00F8DD1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62652B22192386DE00F8DD1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,8 @@
 				62652B2F192386DE00F8DD1B /* todoAppDelegate.h */,
 				62652B30192386DE00F8DD1B /* todoAppDelegate.m */,
 				62652B511923910800F8DD1B /* Main.storyboard */,
+				620226A5192B75B00000A383 /* todoToDoItem.h */,
+				620226A6192B75B00000A383 /* todoToDoItem.m */,
 				840AEA1D192445C6002F1416 /* todoToDoListTableViewController.h */,
 				840AEA1E192445C6002F1416 /* todoToDoListTableViewController.m */,
 				62652B32192386DE00F8DD1B /* Images.xcassets */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62652B31192386DE00F8DD1B /* todoAppDelegate.m in Sources */,
+				620226A7192B75B00000A383 /* todoToDoItem.m in Sources */,
 				840AEA1F192445C6002F1416 /* todoToDoListTableViewController.m in Sources */,
 				62652B2D192386DE00F8DD1B /* main.m in Sources */,
 				840AEA1C192443BD002F1416 /* todoAddToDoItemViewController.m in Sources */,
