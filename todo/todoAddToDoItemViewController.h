@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "todoToDoItem.h"
 
 @interface todoAddToDoItemViewController : UIViewController
+
+@property todoToDoItem *toDoItem;
 
 @end
